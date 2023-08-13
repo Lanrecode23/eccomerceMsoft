@@ -1,0 +1,109 @@
+.product-card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 24px;
+    width: 19rem;
+}
+.product-card a{
+    text-decoration: none;
+}
+.name{
+    margin-top: 3em;
+}
+.product-card .stock{
+    position: absolute;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 12px;
+    margin: 8px;
+    font-size: 12px;
+}
+.product-card .product-card-img{
+    max-height: 260px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.product-card .product-card-img img{
+    width: 100%;
+}
+.product-card .product-card-body{
+    padding: 10px 10px;
+}
+.product-card .product-card-body .product-brand{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    color: #937979;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.product-card .product-card-body .product-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.product-card .product-card-body .selling-price{
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    margin-right: 8px;
+}
+.product-card .product-card-body .original-price{
+    font-size: 18px;
+    color: #937979;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.product-card .product-card-body .btn1{
+    border: 1px solid;
+    margin-right: 3px;
+    border-radius: 0px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+/* Product Card End */
+
+.offer_content{
+    background-image: url(/public/images/offer-bg.png);
+    background-size: cover;
+    margin-top: 6em;
+    padding: 10rem;
+    text-align: right;
+}
+
+
+@media screen and (max-width: 1024px){
+    .product-card{
+        width: 14rem;
+    }
+}
+@media screen and (max-width: 912px){
+    .offer_content{
+        background-size: cover;
+        margin-top: 6em;
+        padding: 10rem 14rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+    .product-card{
+        width: 14rem;
+    }
+    .offer_content{
+        background-size: cover;
+        margin-top: 6em;
+        padding: 6rem;
+        text-align: center;
+    }
+    .product-card-img img{
+        width: 12em;
+        margin: auto;
+        max-height: 180px;
+    }
+}

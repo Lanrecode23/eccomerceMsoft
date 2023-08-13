@@ -1,24 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+import { BrowserRouter, Route, Routes } from "react-router-dom"; // Import BrowserRouter and Routes
+import About from './Components/About';
+import Home from './Components/Home';
+import SingleProduct from './Components/SingleProduct';
+import Notfound from './Components/Notfound';
+import Toproduct from './Components/Toproduct';
+import FilterProducts from './Components/FilterProducts';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import rootReducer from './Components/reducers/rootReducer';
+import Cart from './Components/Cart';
+import Checkout from './Components/Checkout';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Register from './Components/Register';
+import Login from './Components/Login';
+import Searchproducts from './Components/Searchproducts';
+import Shop from './Components/Shop';
 
 function App() {
+  const store = createStore(rootReducer);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Provider store={store}>
+        <Header />
+        <Routes> {/* Use Routes component instead of useRoutes hook */}
+          <Route path='/top' element={<Toproduct />} />
+          <Route path='/checkout' element={<Checkout />} />
+          <Route path='/checkout' element={<Checkout />} />
+          <Route path='/register' element={<Register />} />
+          <Route path='/shop' element={<Shop />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/cart' element={<Cart />} />
+          <Route path="/category/:category" element={<FilterProducts />} />
+          <Route path="/search" element={<Searchproducts />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/product/:id' element={<SingleProduct />} />
+          <Route  path="/" element={<Home />}/>
+          <Route path='*' element={<Notfound />} />
+        </Routes>
+        <ToastContainer />
+        <Footer />
+      </Provider>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,59 @@
+.comment h3 {
+  text-align: center;
+  color: rgb(60, 14, 81);
+  font-weight: bolder;
+  margin: 3em 0 2em 0;
+  font-size: 40px;
+}
+.bubble {
+ width: 80%;
+ margin: auto;
+}
+.allComment {
+  display: flex;
+  align-items: center;
+}
+.bcg {
+  background-color: #eee4e4;
+  width: fit-content;
+  height: 10rem;
+  padding: 20px;
+  position: relative;
+  margin: 2em 1em 0 1em;
+}
+.anImage img {
+  width: 60px;
+  position: absolute;
+  left: 43%;
+  top: -25%;
+  margin: auto;
+}
+.anisha h4,
+.ali h4,
+.richcard h4 {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(60, 14, 81);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ali p,
+.anisha p,
+.richard p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 1em;
+}
+ @media screen and (max-width: 576px) {
+  .allComment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    align-items: center;
+  }
+  .bcg {
+    margin-bottom: 2em;
+  }
+ }

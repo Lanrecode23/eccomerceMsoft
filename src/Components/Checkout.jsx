@@ -5,9 +5,6 @@ function Checkout() {
 
 // calculate the total price of the products
 const totalPrice = useSelector((state) => state.priceReducer.totalPrice);
-
-
-
   return (
     <div className="py-3 py-md-4 checkout">
       <div className='Checkout'>

@@ -7,11 +7,12 @@ import "owl.carousel/dist/assets/owl.theme.default.min.css";
 
 function Testimonial() {
   const options = {
-    margin: 20,
+    margin: 2,
     responsiveClass: true,
     nav: false,
     dots: true,
-    autoplay: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
     navText: ["Prev", "Next"],
     smartSpeed: 1000,
     responsive: {

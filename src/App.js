@@ -1,8 +1,8 @@
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import { BrowserRouter, Route, Routes } from "react-router-dom"; // Import BrowserRouter and Routes
-import About from './Components/About';
-import Home from './Components/Home';
+import About from './Pages/About';
+import Home from './Pages/Home';
 import SingleProduct from './Components/SingleProduct';
 import Notfound from './Components/Notfound';
 import Toproduct from './Components/Toproduct';
@@ -14,11 +14,11 @@ import Cart from './Components/Cart';
 import Checkout from './Components/Checkout';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Register from './Components/Register';
-import Login from './Components/Login';
+import Register from './Pages/Register';
+import Login from './Pages/Login';
 import Searchproducts from './Components/Searchproducts';
 import Shop from './Components/Shop';
-import Contact from './Components/Contact';
+import Contact from './Pages/Contact';
 
 function App() {
   const store = createStore(rootReducer);

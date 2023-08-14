@@ -1,8 +1,8 @@
 import React  from 'react'
-import Toproduct from './Toproduct'
-import Hero from './Hero'
-import Section from './Section'
-import Testimonial from "./testimonial";
+import Toproduct from '../Components/Toproduct'
+import Hero from '../Components/Hero'
+import Section from '../Components/Section'
+import Testimonial from "../Components/testimonial";
 
 function Home() {  
   return (

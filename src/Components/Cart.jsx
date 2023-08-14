@@ -13,7 +13,9 @@ function Cart() {
 
   useEffect(() => {
     // calculate the total price
-    const totalPrice = ourCart.reduce((total, item) => total + item.price, 0);
+    const totalPrice = ourCart.reduce((total, item) => total + item.price * (item.quantity || 1), 0);
+    //set in the localstorage
+    
     // dispatch action to set the total price
     dispatch({ type: "SET_TOTAL_PRICE", payload: totalPrice });
   }, [dispatch, ourCart]);
@@ -87,7 +89,7 @@ function Cart() {
                     //increaase cart
                     const increaseCart = (item) => {
                       // Ensure the quantity is a number before incrementing
-                      const newQuantity = item.quantity ? item.quantity + 1 : 1;
+                      const newQuantity = item.quantity ? item.quantity + 1 : 2;
                       dispatch({
                         type: "UPDATE_CART",
                         payload: { ...item, quantity: newQuantity },
@@ -97,9 +99,9 @@ function Cart() {
                     const decreaseCart = (item) => {
                       // Ensure the quantity is a number and greater than 1 before decrementing
                       const newQuantity =
-                        item.quantity || item.quantity <= 1
-                          ? 1
-                          : item.quantity - 1;
+                        item.quantity > 1
+                          ? item.quantity - 1
+                          : 1;
                       dispatch({
                         type: "UPDATE_CART",
                         payload: { ...item, quantity: newQuantity },
@@ -127,24 +129,25 @@ function Cart() {
                           <div className="col-md-2 col-7 my-auto">
                             <div className="quantity">
                               <div className="input-group">
-                                <span className="btn btn1">
+                                <span className="btn btn1" onClick={() => decreaseCart(item)}>
+                                  
                                   <i
                                     className="fa fa-minus"
-                                    onClick={() => decreaseCart(item)}
+                                    
                                   ></i>
+                                 
+                                  
                                 </span>
-                                <input
-                                  type="text"
-                                  value={item.quantity}
-                                  className="input-quantity"
-                                  readOnly
-                                />
-                                <span className="btn btn1">
+                                <span style={{padding:'0 6px'}}>{item.quantity || 1}</span>
+                                
+                                <span className="btn btn1" onClick={() => increaseCart(item)}>
+                              
                                   <i
                                     className="fa fa-plus"
-                                    onClick={() => increaseCart(item)}
+                                    
                                   ></i>
                                 </span>
+                                
                               </div>
                             </div>
                           </div>

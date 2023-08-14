@@ -1,6 +1,6 @@
 import React from "react";
-import Testimonial from "./testimonial";
 import '../style/contact.css'
+import Testimonial from "../Components/testimonial";
 
 
 function About() {

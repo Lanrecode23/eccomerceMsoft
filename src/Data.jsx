@@ -2,8 +2,8 @@ export const toproduct = [
   {
     id: 1,
     title: "chiffon shirt",
-    price: 109.95,
-    originalPrice: 205.99,
+    price: 97,
+    originalPrice: 109.99,
     description:
       "The sheer texture of the chiffon fabric adds an ethereal and romantic quality, perfect for both formal occasions and casual outings. The fabric drapes beautifully, allowing you to move with grace and confidence.",
     category: "men's clothing",
@@ -17,8 +17,8 @@ export const toproduct = [
   {
     id: 2,
     title: "chiffon shirt",
-    price: 109.95,
-    originalPrice: 205.99,
+    price: 102,
+    originalPrice: 203.5,
     description:
       "The sheer texture of the chiffon fabric adds an ethereal and romantic quality, perfect for both formal occasions and casual outings. The fabric drapes beautifully, allowing you to move with grace and confidence.",
     category: "men's clothing",
@@ -738,8 +738,8 @@ export const toproduct = [
   {
     id: 44,
     title: "Mens shirts",
-    price: 55.99,
-    originalPrice: 65.7,
+    price: 71.99,
+    originalPrice: 98.7,
     description:
       "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
     category: "men's clothing",
@@ -752,8 +752,8 @@ export const toproduct = [
   {
     id: 45,
     title: "Mens sirts",
-    price: 55.99,
-    originalPrice: 65.7,
+    price: 51.99,
+    originalPrice: 69.7,
     description:
       "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
     category: "men's clothing",
@@ -780,8 +780,8 @@ export const toproduct = [
   {
     id: 47,
     title: "Heels shoe",
-    price: 55.99,
-    originalPrice: 65.7,
+    price: 47,
+    originalPrice: 53,
     description:
       "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
     category: "women's clothing",
@@ -794,8 +794,8 @@ export const toproduct = [
   {
     id: 48,
     title: "Shoe",
-    price: 55.99,
-    originalPrice: 65.7,
+    price: 30,
+    originalPrice: 57.6,
     description:
       "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
     category: "shoes",
@@ -808,8 +808,8 @@ export const toproduct = [
   {
     id: 49,
     title: "sketcher shoe",
-    price: 55.99,
-    originalPrice: 65.7,
+    price: 51.99,
+    originalPrice: 67.7,
     description:
       "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
     category: "shoes",
@@ -822,8 +822,8 @@ export const toproduct = [
   {
     id: 50,
     title: " sketcher shoe",
-    price: 55.99,
-    originalPrice: 65.7,
+    price: 45.99,
+    originalPrice: 87.7,
     description:
       "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
     category: "shoes",

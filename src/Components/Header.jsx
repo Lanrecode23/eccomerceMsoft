@@ -41,6 +41,7 @@ function Header() {
       function okCb() {
         dispatch({ type: "LOGOUT", payload: authReducer });
         localStorage.removeItem("name");
+        localStorage.removeItem("isLoggedIn");
       },
       function cancelCb() {
         dispatch({ type: "LOGIN", payload: authReducer });
@@ -281,7 +282,6 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="m-auto">
               <NavLink
-                exact
                 to="/"
                 className="nav-link"
                 activeclassname="active"

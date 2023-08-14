@@ -88,6 +88,9 @@
         padding: 10rem 14rem;
         text-align: center;
     }
+    .product-card{
+        width: 18rem;
+    }
 }
 
 @media screen and (max-width: 576px){

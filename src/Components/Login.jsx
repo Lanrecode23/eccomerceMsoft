@@ -14,18 +14,25 @@ function Login() {
   //function to handle login
   const handleSubmit = (e) => {
     e.preventDefault();
+  if (!detail) {
+    toast.error("User not found. Please sign up.", {
+      position: toast.POSITION.TOP_RIGHT,
+      autoClose: 1000,
+    });
+  } else
     if (name !== detail.Username || password !== detail.Password) {
       toast.error("Invalid Credentials !", {
         position: toast.POSITION.TOP_RIGHT,
         autoClose: 1000,
       });
-    } else {
+     } else {
       toast.success("Login Successful", {
         position: toast.POSITION.TOP_RIGHT,
         autoClose: 1000,
       });
       dispatch({ type: "LOGIN" });
       localStorage.setItem("name", name);
+      
       localStorage.setItem("isLoggedIn", "true");
       handleNavigation();
     }

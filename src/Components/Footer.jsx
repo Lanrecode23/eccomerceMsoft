@@ -45,7 +45,7 @@ function Footer() {
                   </Link>
                 </div>
                 <div className="mb-2">
-                  <Link to="/" className="text-white">
+                  <Link to="/shop" className="text-white">
                     Products
                   </Link>
                 </div>

@@ -13,3 +13,12 @@
 .checkout .tab-content{
     padding-right: 10px;
 }
+.Checkout{
+    background: rgb(10, 145, 10);
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 10px;
+}

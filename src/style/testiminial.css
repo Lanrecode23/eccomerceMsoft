@@ -2,27 +2,21 @@
   text-align: center;
   color: rgb(60, 14, 81);
   font-weight: bolder;
-  margin: 3em 0 2em 0;
+  margin: 2em 0 2em 0;
   font-size: 40px;
 }
-.bubble {
- width: 80%;
- margin: auto;
-}
-.allComment {
-  display: flex;
-  align-items: center;
-}
+
+
 .bcg {
   background-color: #eee4e4;
-  width: fit-content;
-  height: 10rem;
-  padding: 20px;
+  width: 28rem;
+  padding: 40px;
   position: relative;
-  margin: 2em 1em 0 1em;
+  margin: 2em auto;
 }
-.anImage img {
-  width: 60px;
+.anImage  {
+  width: 70px;
+  height: 70px;
   position: absolute;
   left: 43%;
   top: -25%;
@@ -44,9 +38,11 @@
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  width: 100%;
+  text-align: center;
   margin-top: 1em;
 }
- @media screen and (max-width: 576px) {
+ @media screen and (max-width: 912px) {
   .allComment {
     display: flex;
     flex-direction: column;
@@ -55,5 +51,17 @@
   }
   .bcg {
     margin-bottom: 2em;
+  }
+ }
+ @media screen and (max-width: 576px) {
+  .allComment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    align-items: center;
+  }
+  .bcg {
+    width: 20rem;
+    padding: 30px;
   }
  }

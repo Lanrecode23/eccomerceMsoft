@@ -1,11 +1,12 @@
 import React from "react";
 import Testimonial from "./testimonial";
+import '../style/contact.css'
 
 
 function About() {
   return (
     <div>
-      <h3 className="about">#About us</h3>
+      <img src="/images/about-us.jpg" alt=""  className="about-image"/>
       <h3
         className="mt-3 p-3 funda"
         style={{ width: "90%", fontSize: "18px", lineHeight: "1.8" }}

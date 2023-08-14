@@ -10,6 +10,9 @@ const totalPrice = useSelector((state) => state.priceReducer.totalPrice);
 
   return (
     <div className="py-3 py-md-4 checkout">
+      <div className='Checkout'>
+       please login before checkout
+      </div>
       <div className="container">
         <h4>Checkout</h4>
         <hr />

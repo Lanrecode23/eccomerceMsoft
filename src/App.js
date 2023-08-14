@@ -18,6 +18,7 @@ import Register from './Components/Register';
 import Login from './Components/Login';
 import Searchproducts from './Components/Searchproducts';
 import Shop from './Components/Shop';
+import Contact from './Components/Contact';
 
 function App() {
   const store = createStore(rootReducer);
@@ -31,6 +32,7 @@ function App() {
           <Route path='/checkout' element={<Checkout />} />
           <Route path='/checkout' element={<Checkout />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/login' element={<Login />} />
           <Route path='/cart' element={<Cart />} />

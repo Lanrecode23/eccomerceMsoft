@@ -64,4 +64,7 @@
     width: 20rem;
     padding: 25px;
   }
+  .comment h3 {
+    font-size: 28px;
+  }
  }

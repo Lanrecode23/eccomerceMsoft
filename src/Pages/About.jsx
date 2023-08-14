@@ -9,7 +9,7 @@ function About() {
       <img src="/images/about-us.jpg" alt=""  className="about-image"/>
       <h3
         className="mt-3 p-3 funda"
-        style={{ width: "90%", fontSize: "18px", lineHeight: "1.8" }}
+        style={{ width: "100%", fontSize: "18px", lineHeight: "1.8", padding:'2px 10px'}}
       >
         Welcome to Aribiti Ecom, your destination for Home appliances, grocery ,
         jewelery etc. Established in 2021, we have been proudly serving

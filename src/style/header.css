@@ -97,4 +97,10 @@ body, .main-navbar, .second-navbar {
         font-size: 12px;
         padding: 8px 10px;
     }
+    .cated{
+        font-size: 24px!important;
+    }
+    .brand-name{
+        font-size: 18px;
+    }
 }

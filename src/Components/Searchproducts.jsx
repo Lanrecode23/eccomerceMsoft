@@ -37,7 +37,10 @@ function Searchproducts() {
   );
   return (
     <div>
-      <div className="container mt-5 mb-5">
+    <div className="container mt-5 mb-5">
+      {filterProduct.length === 0 ? (
+        <h4 className="text-center" style={{margin:'8em auto', color:'red'}}>No product found.</h4>
+      ) : (
         <div className="row">
           {filterProduct.map((product) => (
             <div className="col-md-6 col-lg-3" key={product.id}>
@@ -65,11 +68,12 @@ function Searchproducts() {
                     {isInCart(product.id) ? (
                       <button className="btn btn1" disabled onClick={() => addCart(product.id)}>
                         Add To Cart
-                      </button>) :
-                      (<button className="btn btn1" onClick={() => addCart(product.id)}>
+                      </button>
+                    ) : (
+                      <button className="btn btn1" onClick={() => addCart(product.id)}>
                         Add To Cart
-                      </button>)
-                    }
+                      </button>
+                    )}
                     <Link
                       to={`/product/${product.id}`}
                       className="btn btn1"
@@ -82,9 +86,10 @@ function Searchproducts() {
             </div>
           ))}
         </div>
-      </div>
-      </div>
-  );
+      )}
+    </div>
+  </div>
+);
 }
 
 export default Searchproducts;

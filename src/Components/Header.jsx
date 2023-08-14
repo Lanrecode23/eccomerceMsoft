@@ -203,7 +203,7 @@ function Header() {
             title="Categories"
             id="collasible-nav-dropdown"
             style={{ fontWeight: "bolder", fontSize: "28px" }}
-            className="funda "
+            className="funda cated"
           >
             <NavDropdown.Item
               as={Link}

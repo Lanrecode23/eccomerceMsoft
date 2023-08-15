@@ -43,11 +43,11 @@ function SingleProduct() {
               <h4>{product.description}</h4>
               <h2>${product.price}</h2>
               {isInCart(product.id) ? (
-                <button disabled onClick={() => addCart(product.id)} className="btn btn-warning">
+                <button disabled onClick={() => addCart(product.id)} className="btn btn-warning bee">
                   Added To Cart
                 </button>
               ) : (
-                <button onClick={() => addCart(product.id)} className="btn btn-warning">Add To Cart</button>
+                <button onClick={() => addCart(product.id)} className="btn btn-warning bee">Add To Cart</button>
               )}
             </div>
           </div>

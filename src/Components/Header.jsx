@@ -156,9 +156,9 @@ function Header() {
                           </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <Link to='/cart' className="dropdown-item">
                             <i className="fa fa-list"></i> My Orders
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           <Link to="/cart" className="dropdown-item">
@@ -309,5 +309,4 @@ function Header() {
     </div>
   );
 }
-
 export default Header;

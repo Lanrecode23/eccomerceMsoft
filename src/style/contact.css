@@ -21,13 +21,13 @@ h1{
 
 @media screen  and (max-width: 912px) {
     .bigContainer{
-        width: 70vw;
+        width: 70vw!important;
     }
     .contactImage img{
-        height: 35rem;
+        height: 24rem;
     }
     .about-image{
-        height: 25em;
+        height: 25em!important;
     }
 }
 @media screen  and (max-width: 576px) {

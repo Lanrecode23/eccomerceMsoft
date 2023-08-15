@@ -77,11 +77,29 @@
   text-shadow: none;
   color: #2874f0;
 }
+@media screen and (max-width: 912px) {
+  .h3 {
+    background-size: contain;
+    width: 100%;
+    padding: 8rem 0!important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h3 h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+    padding-right: 2px;
+  }
+}
 @media screen and (max-width: 576px) {
   .h3 {
     background-size: contain;
     width: 100%;
-    padding: 8rem 0;
+    padding: 8rem 0!important;
     text-align: center;
     display: flex;
     justify-content: center;

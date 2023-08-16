@@ -67,7 +67,7 @@
 .carousel-item-large  img{
   width: 70vw;
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1040px) {
   .carousel-item .custom-carousel-content {
     width: 100%;
     position: absolute;

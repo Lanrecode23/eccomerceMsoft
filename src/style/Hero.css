@@ -67,6 +67,37 @@
 .carousel-item-large  img{
   width: 70vw;
 }
+@media (min-width: 1400px) {
+  .carousel-item .custom-carousel-content {
+    width: 100%;
+    position: absolute;
+    bottom: -60%;
+    left: 40%;
+    transform: translateX(-50%);
+  }
+  .custom-carousel-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+    width: 80%;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .custom-carousel-content p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .d-block {
+    height: 400px;
+  }
+   .carousel-item-large  {
+    height: 400px;
+ 
+  }
+
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .carousel-item .custom-carousel-content {
     width: 100%;

@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 .footer-area .footer-heading {
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
 }
 .footer-area .footer-underline {
@@ -97,7 +97,11 @@
     font-size: 14px !important;
     color: #fff;
   }
-  p {
-    font-size: 12px !important;
+  .footer area p{
+    font-size: 10px !important;
   }
+  .footer-heading{
+    font-size: 11px!important;
+  }
+  
 }

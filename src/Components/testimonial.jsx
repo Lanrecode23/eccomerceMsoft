@@ -30,7 +30,6 @@ function Testimonial() {
         },
         1000: {
             items: 3,
-
         }
     },
 };

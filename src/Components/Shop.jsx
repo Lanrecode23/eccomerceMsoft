@@ -26,7 +26,7 @@ function Shop() {
     }
   };
 
-  // function that handle the previous button
+  // function that handle the next button
   const handleNextPage = () => {
     setCurrentPage((prevPage) => prevPage + 1);
   };

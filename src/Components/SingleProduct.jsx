@@ -4,7 +4,7 @@ import { toproduct } from "../Data";
 import { useSelector, useDispatch } from "react-redux";
 
 function SingleProduct() {
-  // use the useparams to get the id of the product
+  // use the useparams to get the id 
   const { id } = useParams();
   const product = toproduct.find((item) => item.id.toString() === id);
 

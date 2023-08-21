@@ -19,7 +19,6 @@ function Notfound() {
         ></lottie-player>
       </div>
       <div>
-        <div className="not">Not Found</div>
       <h5>Go back to <Link to ="/">Home</Link></h5>
       </div>
     </div>

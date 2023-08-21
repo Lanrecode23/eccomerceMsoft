@@ -76,6 +76,11 @@
 }
 
 
+@media screen and (max-width: 1498px){
+    .product-card{
+        width: 14rem;
+    }
+}
 @media screen and (max-width: 1024px){
     .product-card{
         width: 14rem;

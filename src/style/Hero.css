@@ -74,7 +74,7 @@
   .carousel-item .custom-carousel-content {
     width: 90%;
     position: absolute;
-    bottom: -20%;
+    bottom: -5%;
     left: 35%;
     transform: translateX(-50%);
   }

@@ -86,6 +86,31 @@
   }
   .carousel-item-large {
     height: 700px;
+    margin-bottom: -80px;
+  }
+  .custom-carousel-content p {
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
+
+}
+@media (max-width: 1024px)  {
+  .carousel-item .custom-carousel-content {
+    width: 70%;
+    position: absolute;
+    bottom: -30%;
+    left: 35%;
+    transform: translateX(-50%);
+  }
+  .custom-carousel-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .carousel-item-large {
+    height: 700px!important;
+    margin-bottom: -300px;
   }
   .custom-carousel-content p {
     margin-top: 6px;
@@ -185,5 +210,6 @@
   }
   .carousel-item-large{
     height: 300px;
+    margin-bottom: -30em;
   }
 }

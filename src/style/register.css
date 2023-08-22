@@ -86,9 +86,15 @@
         display: block;
         padding: 2rem;
         margin: 5em 0;
-        max-width: 400px;
+        max-width: 900px!important;
         border-radius: 0.5rem;
         box-shadow: 0 0 2px rgb(56, 55, 55);
+      }
+      .lottie{
+        margin: 5em 0!important;
+      }
+      .lotties{
+        margin: 9em 0!important;
       }
   }
   @media screen and (max-width: 912px) {
@@ -109,6 +115,12 @@
         border-radius: 0.5rem;
         box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
       }
+      .lottie{
+        margin: 3em 0!important;
+      }
+      .lotties{
+        margin: 4em 0!important;
+      }
   }
   @media screen and (max-width: 576px) {
     .form {
@@ -127,5 +139,11 @@
         width: 250px;
         border-radius: 0.5rem;
         box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      }
+      .lottie{
+        margin: 2em 0!important;
+      }
+      .lotties{
+        margin: 2em 0!important;
       }
     }

@@ -41,7 +41,7 @@ function Register() {
   };
   
   return (
-    <div className="d-flex align-items-center justify-content-center">
+    <div className="d-flex align-items-center justify-content-center lottie">
       <lottie-player
         src="https://lottie.host/8ae6c2ac-0450-4c46-8bed-015f1555def4/QprSyqSr7v.json"
         background="#fff"

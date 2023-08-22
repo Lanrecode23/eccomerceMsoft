@@ -80,10 +80,16 @@
     .product-card{
         width: 16rem;
     }
+    .offer_content{
+        text-align: left;
+    }
 }
 @media screen and (max-width: 1024px){
     .product-card{
         width: 14rem;
+    }
+    .offer_content{
+        text-align: left;
     }
 }
 @media screen and (max-width: 912px){

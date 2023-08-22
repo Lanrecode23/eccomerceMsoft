@@ -46,7 +46,7 @@ function Login() {
   };
   
   return (
-    <div className="d-flex align-items-center justify-content-center">
+    <div className="d-flex align-items-center justify-content-center lotties">
       <lottie-player
         src="https://lottie.host/c455871b-372f-4387-9373-3997c51486ef/BZJWGcyiwl.json"
         background="#fff"

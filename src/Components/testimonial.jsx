@@ -29,7 +29,10 @@ function Testimonial() {
             items: 1,
         },
         1000: {
-            items: 3,
+            items: 2,
+        },
+        1500:{
+          items: 3,
         }
     },
 };

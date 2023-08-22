@@ -72,9 +72,9 @@
 
 @media (max-width: 1498px)  {
   .carousel-item .custom-carousel-content {
-    width: 90%;
+    width: 70%;
     position: absolute;
-    bottom: -5%;
+    bottom: -30%;
     left: 35%;
     transform: translateX(-50%);
   }
@@ -82,9 +82,14 @@
     font-size: 30px;
     font-weight: 700;
     width: 80%;
+    margin-bottom: 10px;
   }
   .carousel-item-large {
     height: 700px;
+  }
+  .custom-carousel-content p {
+    margin-top: 6px;
+    margin-bottom: 20px;
   }
 
 }

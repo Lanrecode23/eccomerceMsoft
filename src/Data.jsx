@@ -833,4 +833,49 @@ export const toproduct = [
       count: 500,
     },
   },
+  {
+    id: 51,
+    title:
+      "Headset",
+    price: 55,
+    originalPrice: 67,
+    description:
+      "Upgrade your audio journey with our cutting-edge headset that's engineered to deliver the utmost in sound quality, comfort, and versatility. Whether you're an audiophile, a gaming enthusiast, a professional communicator, or someone who craves immersive virtual experiences, our headset is the perfect companion for all your needs.",
+    category: "electronics",
+    image: "https://plus.unsplash.com/premium_photo-1679913792906-13ccc5c84d44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2R1Y3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    rating: {
+      rate: 4.8,
+      count: 319,
+    },
+  },
+  {
+    id: 52,
+    title:
+      "Headset",
+    price: 59,
+    originalPrice: 70,
+    description:
+      "Upgrade your audio journey with our cutting-edge headset that's engineered to deliver the utmost in sound quality, comfort, and versatility. Whether you're an audiophile, a gaming enthusiast, a professional communicator, or someone who craves immersive virtual experiences, our headset is the perfect companion for all your needs.",
+    category: "electronics",
+    image: "https://media.istockphoto.com/id/1373017594/photo/headphones-on-the-orange-color-background.webp?b=1&s=170667a&w=0&k=20&c=oY2yXWwTRXXNH_yATYIy5SO_AhgXRutbSDsrfO3hULw=",
+    rating: {
+      rate: 4.8,
+      count: 319,
+    },
+  },
+  {
+    id: 53,
+    title:
+      "Headset",
+    price: 68,
+    originalPrice: 87,
+    description:
+      "Upgrade your audio journey with our cutting-edge headset that's engineered to deliver the utmost in sound quality, comfort, and versatility. Whether you're an audiophile, a gaming enthusiast, a professional communicator, or someone who craves immersive virtual experiences, our headset is the perfect companion for all your needs.",
+    category: "electronics",
+    image: "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aGVhZHNldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    rating: {
+      rate: 4.8,
+      count: 319,
+    },
+  },
 ];

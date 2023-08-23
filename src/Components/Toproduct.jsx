@@ -121,7 +121,7 @@ function Toproduct() {
             <div className="col-md-12">
               <h4 className="mb-4 name">Trending Products</h4>
             </div>
-            {toproduct.slice(30, 36).map((product) => (
+            {toproduct.slice(47, 53).map((product) => (
               <div className="col-md-6 col-lg-3" key={product.id}>
                 <div
                   className="product-card"

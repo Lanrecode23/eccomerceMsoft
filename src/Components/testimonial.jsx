@@ -31,7 +31,7 @@ function Testimonial() {
         1000: {
             items: 2,
         },
-        1500:{
+        1400:{
           items: 3,
         }
     },

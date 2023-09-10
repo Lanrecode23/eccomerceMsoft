@@ -28,8 +28,8 @@ function Searchproducts() {
     }
   };
   //get the url location
-  const location = useLocation();
-  const searchQuery = new URLSearchParams(location.search).get("q");
+  const location = useLocation().search;
+  const searchQuery = new URLSearchParams(location).get("q");
   const filterProduct = toproduct.filter(
     (product) =>
       product.title.toLowerCase().includes(searchQuery.toLowerCase()) ||

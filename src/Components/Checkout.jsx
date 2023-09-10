@@ -29,7 +29,7 @@ const totalPrice = useSelector((state) => state.priceReducer.totalPrice);
           </div>
           <div className="col-md-12">
             <div className="shadow bg-white p-3">
-              <h4 className="text-primary">Basic Information</h4>
+              <h4 className="text-primary">Basic Preparation</h4>
               <hr />
 
               <form action="" method="POST">

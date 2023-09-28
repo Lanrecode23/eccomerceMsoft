@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { toproduct } from "../Data";
+import '../style/header.css';
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
@@ -43,10 +44,13 @@ function Shop() {
 
   return (
     <div>
+      <div className="container-fluid  bg-body-secondary p-4">
+        <div className="text text-center"><Link to='/' className="text text-decoration-none">Home</Link> &gt; Shop</div>
+      </div>
       <div className="container mt-5 mb-5">
         <div className="row">
           {paginatedProducts.map((product) => (
-            <div className="col-md-6 col-lg-3" key={product.id}>
+            <div className="col-md-6  col-lg-3" key={product.id}>
               <div
                 className="product-card"
                 style={{ margin: "1em auto" }}

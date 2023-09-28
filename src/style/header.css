@@ -38,11 +38,16 @@
 .main-navbar{
     transition: all 0.3s ease;
 }
-.main-navbar.fixed{
+.main-navbar.fixed {
     position: fixed;
     width: 100%;
+    top: 10;
     transition: all 0.6s ease; 
     z-index: 100;
+}
+.container-fluid.fixed{
+    position: fixed;
+    transition: all 0.6s ease; 
 }
 body, .main-navbar, .second-navbar {
     scroll-behavior: smooth;
@@ -51,7 +56,7 @@ body, .main-navbar, .second-navbar {
 .brand-name{
     font-weight: bolder;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .main-navbar .navbar .nav-item .nav-link{
@@ -68,7 +73,10 @@ body, .main-navbar, .second-navbar {
     outline: none !important;
     box-shadow: none !important;
   }
-  
+  .text{
+   color: #969393;
+   font-size: 18px !important;
+  }
   .nav-link.active {
     color: blue;
     font-weight: bolder;
@@ -81,9 +89,9 @@ body, .main-navbar, .second-navbar {
     margin-bottom: 0.5em !important;
     padding: 0.3em 3em 0.3em 3em !important;
   }
-  .funda{
+  /* .funda{
     padding: 0.1em;
-  }
+  } */
   
   /* Optional: If you want to add a box shadow to the dropdown */
   .dropdown-item-custom:hover {
@@ -91,14 +99,15 @@ body, .main-navbar, .second-navbar {
      box-shadow: none !important;
   }
   
-  
+  .brand-name:hover{
+    color: #fff!important;
+    text-decoration: none !important;
+    border: none !important;
+  } 
 @media only screen and (max-width: 600px) {
     .main-navbar .top-navbar .nav-link{
         font-size: 12px;
         padding: 8px 10px;
-    }
-    .cated{
-        font-size: 24px!important;
     }
     .brand-name{
         font-size: 18px;

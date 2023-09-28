@@ -81,13 +81,28 @@ function Header() {
   const name = localStorage.getItem("name");
   return (
     <div>
+      <div className={isScroll ? "container-fluid bg-body-tertiary fixed" : "container-fluid bg-body-tertiary"}>
+        <marquee behavior="scroll" direction="left" className='text-secondary funda  p-1'>
+          🎉 Exciting News! Don't Miss Our Exclusive 𝗗𝗜𝗦𝗖𝗢𝗨𝗡𝗧 Event! 🛍️
+          Ready for an incredible shopping experience? Look no further than [eccomerce-soft.vercel.app]. We're thrilled to announce a limited-time 𝗗𝗜𝗦𝗖𝗢𝗨𝗡𝗧 on all your favorite products!
+          🌟 Here's what we have in store for you: 
+          - 👔 Men's Clothing: Elevate your wardrobe with the latest trends in men's fashion.
+          - 👗 Women's Clothing: Discover the perfect outfits for any occasion, from casual to chic.
+          - 💍 Jewelry: Add a touch of elegance to your look with our stunning jewelry pieces.
+          - 📱 Electronics: Stay connected and entertained with top-quality electronics.
+          - 🛒 **And Much More!**
+          This is your chance to shop quality products at unbeatable prices. Act fast! These deals won't last forever.
+          📅 Save the dates: [september 6th] - [December 6th]  
+          Don't miss out on this shopping extravaganza. Visit us now at [eccomerce-soft.vercel.app] and indulge in the 𝗗𝗜𝗦𝗖𝗢𝗨𝗡𝗧 of a lifetime! 🌍🛒💰
+        </marquee>
+      </div>
       <div className="first-navbar-container">
         <div className={isScroll?"main-navbar fixed shadow-sm" : "main-navbar shadow-sm"}>
           <div className="top-navbar">
             <div className="container-fluid">
               <div className="row">
                 <div className="col-md-2 my-auto d-sm-none d-md-block d-lg-block">
-                  <h5 className="brand-name">Aribiti Ecom</h5>
+                 <Link to='/'><h5 className="brand-name funda">Aribitee Ecom</h5></Link>
                 </div>
                 <div className="col-md-5 my-auto">
                   <form role="search" onSubmit={handleSubmit}>
@@ -202,7 +217,7 @@ function Header() {
           <NavDropdown
             title="Categories"
             id="collasible-nav-dropdown"
-            style={{ fontWeight: "bolder", fontSize: "28px" }}
+            style={{ fontWeight: "bolder", fontSize: "22px" }}
             className="funda cated"
           >
             <NavDropdown.Item

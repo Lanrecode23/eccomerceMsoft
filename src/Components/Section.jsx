@@ -4,7 +4,7 @@ import "../style/Hero.css";
 function Section() {
   return (
     <div>
-      <section className="feature-area section_gap_bottom_custom">
+      <section className="feature-area section_gap_bottom_custom"  data-aos="fade-in">
         <div className="container mt-5 mb-5" >
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-6">

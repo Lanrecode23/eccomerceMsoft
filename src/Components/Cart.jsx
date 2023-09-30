@@ -48,7 +48,7 @@ function Cart() {
   return (
     <>
       <div className="h3 funda">
-        <h3>#Cart / </h3>
+        <h3>#Cart &gt; </h3>
         <Link to="/" style={{ textDecoration: "none", color: "black" }}>
           <h3 className="hover"> Home </h3>
         </Link>

@@ -18,7 +18,11 @@
     margin-left: 1em;
   }
   .prod{
-    margin: 3em 1em;
+    margin: 2em 1em;
+    color:rgb(8, 151, 8);
+    font-weight: bolder;
+    font-family: 'Arsenal', sans-serif;
+    text-shadow: 2px 2px 4px rgba(95, 94, 94, 0.5);
   }
   .about{
     background-repeat: no-repeat;

@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "../style/singleprod.css";
 import { toproduct } from "../Data";
 import { useSelector, useDispatch } from "react-redux";
@@ -29,6 +29,9 @@ function SingleProduct() {
 
   return (
     <div>
+      <div className="container-fluid  bg-body-secondary p-5 ">
+        <div className="text text-center"><Link to='/' className="text text-decoration-none">Home</Link> &gt; Details</div>
+      </div>
       {product && (
         <div>
           <h3 className="prod">Product Details</h3>

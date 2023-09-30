@@ -12,46 +12,29 @@ function Hero() {
     setIndex(selectedIndex);
   };
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   // handle the shop navigation to go to the product page
   const handleShop = () => {
-    navigate('/shop')
-  }
+    navigate("/shop");
+  };
 
   return (
     <div>
       {!isLoggedIn ? (
         <>
-          <Carousel
-            activeIndex={index}
-            onSelect={handleSelect}
-            prevIcon={null}
-            nextIcon={null}
-          >
-            <Carousel.Item>
-              <img
-                src="/images/freepics.jpg"
-                className="d-block w-100"
-                alt="..."
-              />
-              <div className="carousel-caption  d-md-block">
-                <div className="custom-carousel-content">
-                  <h1>
-                    <span>Best Ecommerce Solutions </span>
-                    to Get the best products
-                  </h1>
-                  <p>
-                    At Aribiti E-Commerce, we are passionate about providing the
-                    best online shopping experience for our customers. With a
-                    wide range of products across various categories, we strive
-                    to offer convenience, quality, and value.
-                  </p>
-                  <button className="buttonShop" onClick={handleShop}> Shop now</button>
-                </div>
-              </div>
-            </Carousel.Item>
-          </Carousel>
+          <div className="hero-container funda">
+            <h3>Best Ecommerce Solutions to Get the best products </h3>
+            <p>
+              At Aribitee E-Commerce, we are passionate about providing the best
+              online shopping experience for our customers. With a wide range of
+              products across various categories, we strive to offer
+              convenience, quality, and value.
+            </p>
+            <div className="button ">
+              <button className="buttonShop" onClick={handleShop}>{" "}Shop now </button>
+            </div>
+          </div>
         </>
       ) : (
         <Carousel activeIndex={index} onSelect={handleSelect}>

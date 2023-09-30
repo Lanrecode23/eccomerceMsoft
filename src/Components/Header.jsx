@@ -81,7 +81,7 @@ function Header() {
   const name = localStorage.getItem("name");
   return (
     <div>
-      <div className={isScroll ? "container-fluid bg-body-tertiary fixed" : "container-fluid bg-body-tertiary"}>
+      <div className={isScroll ? "container-fluid bg-body-tertiary fixed p-2" : "container-fluid bg-body-tertiary p-2"}>
         <marquee behavior="scroll" direction="left" className='text-secondary funda  p-1'>
           🎉 Exciting News! Don't Miss Our Exclusive 𝗗𝗜𝗦𝗖𝗢𝗨𝗡𝗧 Event! 🛍️
           Ready for an incredible shopping experience? Look no further than [eccomerce-soft.vercel.app]. We're thrilled to announce a limited-time 𝗗𝗜𝗦𝗖𝗢𝗨𝗡𝗧 on all your favorite products!
@@ -101,8 +101,8 @@ function Header() {
           <div className="top-navbar">
             <div className="container-fluid">
               <div className="row">
-                <div className="col-md-2 my-auto d-sm-none d-md-block d-lg-block">
-                 <Link to='/'><h5 className="brand-name funda">Aribitee Ecom</h5></Link>
+                <div className="col-md-2 my-auto d-sm-none d-md-block d-lg-block logo">
+                 <Link to='/'><img src="/images/logo-no-background.png" alt="" /></Link>
                 </div>
                 <div className="col-md-5 my-auto">
                   <form role="search" onSubmit={handleSubmit}>
@@ -309,6 +309,13 @@ function Header() {
                 activeclassname="active"
               >
                 About
+              </NavLink>
+              <NavLink
+                to="/shop"
+                className="nav-link"
+                activeclassname="active"
+              >
+                Shop
               </NavLink>
               <NavLink
                 to="/contact"

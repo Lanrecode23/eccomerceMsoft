@@ -3,8 +3,8 @@
 }
 .main-navbar .top-navbar{
     background-color: #2874f0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     transition: all 2s ease;
 }
 .main-navbar .top-navbar .brand-name{
@@ -75,7 +75,7 @@ body, .main-navbar, .second-navbar {
   }
   .text{
    color: #969393;
-   font-size: 18px !important;
+   font-size: 16px !important;
   }
   .nav-link.active {
     color: blue;
@@ -104,6 +104,15 @@ body, .main-navbar, .second-navbar {
     text-decoration: none !important;
     border: none !important;
   } 
+  .logo img{
+    width: 200px;
+  }
+@media only screen and (max-width: 768px) {
+  .logo img{
+    width: 125px;
+  }
+    
+}
 @media only screen and (max-width: 600px) {
     .main-navbar .top-navbar .nav-link{
         font-size: 12px;
@@ -112,4 +121,5 @@ body, .main-navbar, .second-navbar {
     .brand-name{
         font-size: 18px;
     }
+    
 }

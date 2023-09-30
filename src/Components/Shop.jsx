@@ -44,7 +44,7 @@ function Shop() {
 
   return (
     <div>
-      <div className="container-fluid  bg-body-secondary p-4">
+      <div className="container-fluid  bg-body-secondary p-5">
         <div className="text text-center"><Link to='/' className="text text-decoration-none">Home</Link> &gt; Shop</div>
       </div>
       <div className="container mt-5 mb-5">

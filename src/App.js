@@ -19,6 +19,7 @@ import Login from './Pages/Login';
 import Searchproducts from './Components/Searchproducts';
 import Shop from './Components/Shop';
 import Contact from './Pages/Contact';
+import Moda from './Components/Moda';
 
 function App() {
   const store = createStore(rootReducer);
@@ -44,6 +45,7 @@ function App() {
           <Route path='*' element={<Notfound />} />
         </Routes>
         <ToastContainer />
+        <Moda/>
         <Footer />
       </Provider>
     </BrowserRouter>

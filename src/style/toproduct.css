@@ -3,6 +3,7 @@
     border: 1px solid #ccc;
     margin-bottom: 24px;
     width: 19rem;
+    cursor: pointer;
 }
 .product-card a{
     text-decoration: none;

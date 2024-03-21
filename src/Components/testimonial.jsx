@@ -53,7 +53,7 @@ function Testimonial() {
               <p className="funda">
                 "The product I bought from this website is fantastic! It's
                 exactly as described, and the shipping was super quick. I highly
-                recommend it to anyone."
+                recommend it to everyone."
               </p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import { BrowserRouter, Route, Routes } from "react-router-dom"; // Import BrowserRouter and Routes
+import { BrowserRouter, Route, Routes } from "react-router-dom"; 
 import About from './Pages/About';
 import Home from './Pages/Home';
 import SingleProduct from './Components/SingleProduct';
@@ -28,7 +28,7 @@ function App() {
     <BrowserRouter>
       <Provider store={store}>
         <Header />
-        <Routes> {/* Use Routes component instead of useRoutes hook */}
+        <Routes>
           <Route path='/top' element={<Toproduct />} />
           <Route path='/checkout' element={<Checkout />} />
           <Route path='/checkout' element={<Checkout />} />

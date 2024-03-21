@@ -6,7 +6,6 @@ function Footer() {
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
   useEffect(() => {
-    // Update the current year when the component mounts
     setCurrentYear(new Date().getFullYear());
   }, []);
   
